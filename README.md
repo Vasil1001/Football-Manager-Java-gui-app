@@ -1,7 +1,7 @@
 # Football-Manager-Java-gui-app <a name="readme-top"></a> 
 A Java program built with Java for Object Oriented Programming module at University of Westminster that simulates a football league allowing for teams to play games against each other and display results on a leaderboard.
 
-[![Java][Java.com]][Java-url] [![VS][VS.com]][VS-url] 
+[![Java][Java.com]][Java-url] [![IntelliJ][IntelliJ.com]][IntelliJ-url] 
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -17,10 +17,7 @@ A Java program built with Java for Object Oriented Programming module at Univers
   <ol>
     <li><a href="#general-info">General Info</a></li>
     <li><a href="#setup">Setup</a></li>
-    <li><a href="#further-requirements">Further Requirements</a></li>
-    <li><a href="#project-status">Project Status</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#improvement">Room for Improvement</a></li>
     <li><a href="#project-status">Status</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#app-screenshots">App Screenshots</a></li>
@@ -56,28 +53,21 @@ Created by [Vasil] - feel free to contact me!
 
 <!-- app-screenshots -->
 ## App screenshots
-Login Page | Register Page 
-:-----------------------:|:-----------------------:
-![chrome_UdUGL56b0X](https://user-images.githubusercontent.com/78150846/196760645-e189f5ee-d410-434b-9009-583f8316c327.png)|![chrome_BKqmxxvHdU](https://user-images.githubusercontent.com/78150846/196760671-82cd3e0e-781b-49b6-9378-98771c30e2f5.png)
-
 League GUI
 :-----------------------:
 ![java_SnvFxILsak](https://user-images.githubusercontent.com/78150846/196828137-2911cdc8-20ed-42af-9902-3401b976223a.png)
+
+Sort Points
+:-----------------------:
 ![java_DAY63iziNg](https://user-images.githubusercontent.com/78150846/196828171-b2b12e70-68df-4afb-8259-beb11121c699.png)
+
+Sort Goals
+:-----------------------:
 ![java_Laf2x7q2Dh](https://user-images.githubusercontent.com/78150846/196828185-18e8a818-9005-4fed-a9f8-9f44e43c3e40.png)
+  
+Sort Wins
+:-----------------------:
 ![java_9u0YSLBQk4](https://user-images.githubusercontent.com/78150846/196828191-78b29f67-b025-4868-beee-37d71a2eb9a5.png)
-
-Projects Page 
-:-----------------------:
-![chrome_ypqkviHbdj](https://user-images.githubusercontent.com/78150846/196763013-0c0c6335-c21f-4c79-bb30-1031a2e6a6a1.png)
-
-Tickets Page 
-:-----------------------:
-![chrome_2ajGpXTDnF](https://user-images.githubusercontent.com/78150846/196762719-6eb66ab9-a113-4817-940d-cee4844ecae1.png)
-
-Create | Edit Page
-:-----------------------:|:-----------------------:
-![chrome_6OCItTYBX7](https://user-images.githubusercontent.com/78150846/196763273-8eb28e0d-4566-4077-8722-de88a6b64eb9.png)|![chrome_J75ArCO5Vr](https://user-images.githubusercontent.com/78150846/196763285-0f41a970-b5f0-4989-922f-6c4848204d85.png)
 
   (<a href="#readme-top">back to top</a>)</p>
 
@@ -129,3 +119,5 @@ Create | Edit Page
 [MYSQL-url]: https://www.mysql.com/
 [.NET.com]: https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white
 [.NET-url]: https://dotnet.microsoft.com/en-us/
+[IntelliJ.com]: https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white
+[IntelliJ-url]: [https://dotnet.microsoft.com/en-us/](https://www.jetbrains.com/idea/)
