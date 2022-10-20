@@ -10,5 +10,7 @@ package cw1_premierleague;
  * @author Vasilis
  */
 interface LeagueManager {
+
+
     
 }

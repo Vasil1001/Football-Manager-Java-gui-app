@@ -9,8 +9,12 @@ package cw1_premierleague;
  *
  * @author Vasilis
  */
+//IF I RUN PROJECT IT RUNS FROM HERE SO 
+//CALL MY CLASS THAT HAS THE OPTIONS MENU METHODS
 public class CW1_PremierLeague {
     public static void main(String[] args) {
-        PremierLeagueManager plm = new PremierLeagueManager(20);
+        //create new plm class with menu
+        new PremierLeagueManager(20);
+        
     }
 }

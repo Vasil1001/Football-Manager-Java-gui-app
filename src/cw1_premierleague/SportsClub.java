@@ -10,24 +10,14 @@ package cw1_premierleague;
  * @author Vasilis
  */
 
-//SportsClub is abstract//have to keep track of teams' w/d/l of the season to come up with their points
+//SportsClub is abstract
+//contains basic name loc for clubs
     
 abstract public class SportsClub {
-    //for sportsclub add names/locations 
-    
-    //keep track of club name/location
-    //keep track of stats for every club
-    //and then extend to football club with more specific info
-    
-    //define above notes as variables
+//define
     private String name;
     private String location;
-    private String stats;
-    
-    //set getters and getters
-    //so i can setName when adding new club
-    //and getName when eg. printing team added
-    
+
     public String getName(){
         return name; //eg NewFC.getName() will give me NewFC name
     }
@@ -40,12 +30,5 @@ abstract public class SportsClub {
     }
     public void setLocation(String loc){
         location = loc;
-    }
-    
-    public String getStats(){
-        return stats;
-    }
-    public void setStats(String st){
-        stats = st;
     }
 }

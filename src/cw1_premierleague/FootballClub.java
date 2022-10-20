@@ -5,8 +5,6 @@
  */
 package cw1_premierleague;
 
-import java.util.Date;
-
 /**
  *
  * @author Vasilis
@@ -23,7 +21,7 @@ public class FootballClub extends SportsClub {
     int wins; int draws; int losses;
     int goals_scored; int goals_received;
     int current_points;
-    int matches_played;
+    int played_match;
     
     public int getWins(){
         return wins;
@@ -46,7 +44,7 @@ public class FootballClub extends SportsClub {
         losses = l;
     }
     
-    public int getGoals_scored(){
+    public int getGoals_scored(){//TOTAL SCORED GOALS
         return goals_scored;
     }
     public void setGoals_scored(int gs){
@@ -66,35 +64,12 @@ public class FootballClub extends SportsClub {
     }
     public void setCurrent_points(int cp){
         current_points = cp;
+    } 
+    public int getMatch_played(){
+        return played_match;
     }
-    
-    public int getMatches_played(){
-        return matches_played;
-    }
-    public void setMatches_played(int mp){
-        matches_played = mp;
-    }
-    
-    public class Played_Match {
-    
-        private FootballClub TeamA;
-        private FootballClub TeamB;
-        private int teamAScore;
-        private int teamBScore;
-        private Date date;
-    
-        public FootballClub getTeamA(){
-            return TeamA;
-        }
-        public int getTeamAScore(){
-            return teamAScore;
-        }
-
-        public FootballClub getTeamB(){
-            return TeamB;
-        }
-        public Date getDate(){
-            return date;
-        }
+    public void setMatch_played(int mp){
+        played_match = mp;
     }
 }
+    
